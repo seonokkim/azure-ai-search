@@ -8,9 +8,6 @@ This repository showcases the integration of **Azure OpenAI** services with **Gr
 - **Web Application Example**: Interactive chatbot using Azure OpenAI.
 
 
-## Dataset Source
-The dataset on Namhae-gun's tourist attractions (2022) is provided by **Namhae-gun, Gyeongsangnam-do** via the [Korea Open Government Data Portal](https://www.data.go.kr/data/15110855/fileData.do?recommendDataYn=Y). It includes multilingual information such as names, addresses, coordinates, and contact details.
-
 
 ## Project Structure
    ```bash
@@ -108,8 +105,14 @@ By following these steps, you can effectively set up **Azure OpenAI Studio** and
    python gradio-chatbot.py
    ```
 
+## Dataset Source
+The dataset on Namhae-gun's tourist attractions (2022) is provided by **Namhae-gun, Gyeongsangnam-do** via the [Korea Open Government Data Portal](https://www.data.go.kr/data/15110855/fileData.do?recommendDataYn=Y). It includes multilingual information such as names, addresses, coordinates, and contact details.
+
+
+
 ## License
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute it as per the license terms.
+
 
 ## Acknowledgments
 - [OpenAI](https://openai.com/) for their cutting-edge AI models.
