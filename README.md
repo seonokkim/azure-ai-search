@@ -8,11 +8,12 @@ This repository showcases the integration of **Azure OpenAI** services with **Gr
 - **Web Application Example**: Interactive chatbot using Azure OpenAI.
 
 ## Project Structure
-├── dataset/           # Contains example datasets used in the project
-├── demo/              # Includes media for showcasing the project
-│   └── demo.png       # Screenshot of the Gradio-based chatbot
-├── gradio-chatbot.py  # Main script for running the Gradio application
-
+   ```bash
+   ├── dataset/           # Contains example datasets used in the project
+   ├── demo/              # Includes media for showcasing the project
+   │   └── demo.png       # Screenshot of the Gradio-based chatbot
+   ├── gradio-chatbot.py  # Main script for running the Gradio application
+   ```
 
 ## Demo
 Below is a preview of the chatbot UI built using Gradio and Azure AI:
