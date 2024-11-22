@@ -1,6 +1,6 @@
 # Azure AI Search
 
-This repository showcases the integration of **Azure OpenAI** services with **Gradio** to create interactive web applications for text and image processing.
+This repository showcases the integration of **Azure OpenAI** services with **Gradio** to create interactive web applications for searching tourist attractions.
 
 ## Features
 - **Gradio**: Provides an easy-to-use UI for deploying AI models.
