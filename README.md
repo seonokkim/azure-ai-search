@@ -3,8 +3,8 @@
 This repository showcases the integration of **Azure OpenAI** services with **Gradio** to create interactive web applications for searching tourist attractions.
 
 ## Features
-- **Gradio**: Provides an easy-to-use UI for deploying AI models.
-- **Azure OpenAI**: Powers the backend with advanced text and image generation capabilities.
+- **Gradio**: Provides an intuitive and interactive user interface for deploying AI-powered chatbots with minimal effort.  
+- **Azure OpenAI**: Powers the backend with state-of-the-art AI models for natural language understanding and generation, enabling accurate and engaging conversations.  
 - **Web Application Example**: Interactive chatbot using Azure OpenAI.
 
 
