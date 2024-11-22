@@ -14,9 +14,16 @@ The dataset on Namhae-gun's tourist attractions (2022) is provided by **Namhae-g
 
 ## Project Structure
    ```bash
-   ├── dataset/           # Contains example datasets used in the project
+   ├── dataset/           # Contains datasets and configurations for Azure AI Search
+   │   ├── namhae.csv     # Dataset of Namhae-gun's tourist attractions
+   │   ├── index.json     # Configuration file for the search index
+   │   ├── indexer.json   # Configuration file for the indexer
    ├── demo/              # Includes media for showcasing the project
-   │   └── demo.png       # Screenshot of the Gradio-based chatbot
+   │   ├── azure-webapp-demo.mov  # Video demo of the Azure web app
+   │   ├── azure-webapp-demo.png  # Screenshot of the Azure web app
+   │   ├── gradio-demo.gif         # GIF demo of the Gradio chatbot
+   │   ├── gradio-demo.mov         # Video demo of the Gradio chatbot
+   │   ├── gradio-demo.png         # Screenshot of the Gradio chatbot
    ├── gradio-chatbot.py  # Main script for running the Gradio application
    ```
 
