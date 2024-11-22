@@ -23,7 +23,8 @@ The dataset on Namhae-gun's tourist attractions (2022) is provided by **Namhae-g
 ## Demo
 Below is a preview of the chatbot UI built using Gradio and Azure AI:
 
-![Demo Screenshot](demo/demo.png)
+![Demo Screenshot](demo/gradio-demo.png)
+![Demo Screenshot](demo/azure-webapp-demo.png)
 
 
 ## Model Deployment and AI Search Setup
