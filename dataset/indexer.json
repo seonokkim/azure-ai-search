@@ -1,0 +1,87 @@
+{
+  "name": "travel-indexer",
+  "description": null,
+  "dataSourceName": "travel-dataset",
+  "skillsetName": null,
+  "targetIndexName": "travel",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": null,
+    "maxFailedItemsPerBatch": null,
+    "base64EncodeKeys": null,
+    "configuration": {
+      "indexedFileNameExtensions": ".csv",
+      "parsingMode": "delimitedText",
+      "firstLineContainsHeaders": true,
+      "dataToExtract": "contentAndMetadata",
+      "allowSkillsetToReadFileData": false
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "name",
+      "targetFieldName": "name",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "address",
+      "targetFieldName": "address",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "latitude",
+      "targetFieldName": "latitude",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "longitude",
+      "targetFieldName": "longitude",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "type",
+      "targetFieldName": "type",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "type_number",
+      "targetFieldName": "type_number",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "telephone",
+      "targetFieldName": "telephone",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "theme",
+      "targetFieldName": "theme",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "has_parkinglot",
+      "targetFieldName": "has_parkinglot",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "parkinglot_count",
+      "targetFieldName": "parkinglot_count",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "homepage",
+      "targetFieldName": "homepage",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "description",
+      "targetFieldName": "description",
+      "mappingFunction": null
+    }
+  ],
+  "outputFieldMappings": [],
+  "cache": null,
+  "encryptionKey": null
+}
